@@ -8,6 +8,7 @@ header{
   font-size: 14px;
   font-weight:bold;
   align-items: center;
+  position:fixed;
 
 }
 .logo{
@@ -19,13 +20,15 @@ header{
 
 /*content*/
 .container{
+  margin-top: 50px;
   width:100%;
   height: auto;
   border: 1px solid black;
-  background-color: blue;
+  background-color: white;
 
 }
 .column {
+  margin-top: 50px;
   width: 100%;
   height: auto;
   border: 1px solid black;
@@ -39,9 +42,6 @@ header{
   width: 630px;
   border: 1px solid orange;
   margin-right: 20px;
-}
-.large p{
-  border: 1px solid black;
 }
 
 .medium{
@@ -58,6 +58,52 @@ font-family: Georgia;
 font-size: 17px;
 color: black;
 }
+/*Editing Large Columns */
+.box1, .box2, .box3{
+  border: 1px solid black;
+}
+.box1{
+  background-color: white;
+}
+.box2n3{
+  display: flex;
+  justify-content: space-around;
+}
+}
+.box2{
+  background-color: floralwhite;
+
+}
+.box3{
+
+  background-color: purple;
+}
+.orca, .breakfast{
+  padding: 15px 15px;
+}
+
+.earth{
+display:flex;
+height:300px;
+align-items: center;
+width: auto%;
+margin: 10px 10px;
+background-image: url("http://news.rakyatku.com/thumbs/img_660_442_gerhana-bu_1517369510Bumi.jpg")
+}
+
+.camera {
+  display: flex;
+  height: 300px;
+  width: auto%;
+  margin: 10px 10px;
+  justify-content:center;
+  align-items: center;
+  background-image:url("http://2.citynews-milanotoday.stgy.ovh/~media/original-hi/25574050584160/photo-7.jpeg")
+}
+
+
+
+
 /*Main-Story*/
 .mainstory {
   display：flex;
@@ -72,13 +118,7 @@ font-size: 40px;
 color: white;
 }
 /*SubStory1 & Camera*/ /*For this part, if you place background image before saying the width and height it wont work*/
-.substory1{
-display:flex;
-width: 100%;
-height: 150px;
-justify-content: center;
-background-image: url("http://news.rakyatku.com/thumbs/img_660_442_gerhana-bu_1517369510Bumi.jpg")
-}
+
  h2 {
   font-family: Georgia;
   font-weight: bold;
@@ -86,13 +126,7 @@ background-image: url("http://news.rakyatku.com/thumbs/img_660_442_gerhana-bu_15
   color: white;
 
 }
-.camera {
-  display: flex;
-  width: 100%;
-  height: 150px;
-  justify-content:center;
-  background-image:url("http://2.citynews-milanotoday.stgy.ovh/~media/original-hi/25574050584160/photo-7.jpeg")
-}
+
 
 /*Medium Column*/
 .cat {
