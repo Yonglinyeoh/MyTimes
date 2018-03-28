@@ -7,7 +7,7 @@ header{
   display:flex;
   width:100%;
   height: 80px;
-  border-bottom: 1px solid black;
+
   font-family: verdana;
   font-size: 14px;
   font-weight:bold;
@@ -15,18 +15,19 @@ header{
   position: fixed;
   z-index: 1;
   background-color: white;
+  border-bottom: 1px solid black;
 
 }
 .logo{
   display: flex;
   align-items: center;
   flex-grow: 1;
-  border: 1px solid black;
+
 }
 header nav span{
-  border: 1px solid black;
+
   padding-right: 40px;
-  display: inline-block;
+  display: inline-block
   width: 30px;
 }
 nav a {
@@ -46,16 +47,15 @@ nav a {
 .column {
   width: 100%;
   height: auto;
-  border: 1px solid black;
+
   display: flex;
-  background-color: lightblue;
   flex-direction:row;
   justify-content: center;
   padding-top: 150px;
 }
 .large {
   width: 630px;
-  border: 1px solid orange;
+
   margin-right: 20px;
   flex-shrink: 0;
 
@@ -63,14 +63,14 @@ nav a {
 
 .medium{
   width: 300px;
-  border: 1px solid blue;
+
   margin-right:20px;
   flex-shrink: 0;
 
 }
  .small {
   width: 240px;
-  border: 1px solid green;
+
   flex-shrink: 0;
 
 }
@@ -80,8 +80,8 @@ font-size: 17px;
 color: black;
 }
 /*Editing Large Columns */
-.box1, .box2, .box3{
-  border: 1px solid black;
+
+
 }
 .box1{
   background-color: white;
@@ -94,14 +94,14 @@ color: black;
   justify-content: space-around;
 }
 }
-.box2{
+/*.box2{
   background-color: floralwhite;
 
-}
-.box3{
+}*/
+/*.box3{
 
   background-color: purple;
-}
+}*/
 .orca, .breakfast{
   padding: 15px 15px;
 }
@@ -205,12 +205,12 @@ footer {
   font-family: Verdana;
   margin: auto;
   font-size: 12px;
-  border: 1px solid black;
+
 }
 .foot1{
   width: 100%;
   display:flex;
-  border: 1px solid black;
+
   align-items: center;
   justify-content: center;
   flex-direction: row;
@@ -221,12 +221,12 @@ footer {
 }
 .foot1 nav span{
   display: inline-block;
-  border: 1px solid black;
+
   width: 50px;
 }
 .foot2{
   margin-top: 10px;
-  border: 1px solid black;
+
 }
 .foot1 h1{
   font-family: Georgia;
