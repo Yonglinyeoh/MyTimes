@@ -16,7 +16,7 @@ header{
   flex-grow: 1;
 }
 
-}
+
 /*content*/
 .container{
   width:100%;
@@ -27,7 +27,7 @@ header{
 }
 .column {
   width: 100%;
-  height: 600px;
+  height: auto;
   border: 1px solid black;
   display: flex;
   background-color: lightblue;
@@ -38,6 +38,7 @@ header{
 .large {
   width: 630px;
   border: 1px solid orange;
+  margin-right: 20px;
 }
 .large p{
   border: 1px solid black;
@@ -46,8 +47,57 @@ header{
 .medium{
   width: 300px;
   border: 1px solid blue;
+  margin-right:20px;
 }
  .small {
   width: 240px;
   border: 1px solid green;
+}
+.column p,h3{
+font-family: Georgia;
+font-size: 17px;
+color: black;
+}
+/*Main-Story*/
+.mainstory {
+  display：flex;
+  width: 100%;
+  height: 300px;
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png")
+}
+.mainstory h1 {
+font-family: Georgia;
+font-weight: bold;
+font-size: 40px;
+color: white;
+}
+/*SubStory1 & Camera*/ /*For this part, if you place background image before saying the width and height it wont work*/
+.substory1{
+display:flex;
+width: 100%;
+height: 150px;
+justify-content: center;
+background-image: url("http://news.rakyatku.com/thumbs/img_660_442_gerhana-bu_1517369510Bumi.jpg")
+}
+ h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+
+}
+.camera {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  justify-content:center;
+  background-image:url("http://2.citynews-milanotoday.stgy.ovh/~media/original-hi/25574050584160/photo-7.jpeg")
+}
+
+/*Medium Column*/
+.cat {
+  display: flex;
+  width:100%;
+  height: 200px;
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png")
 }
