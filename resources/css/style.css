@@ -1,6 +1,6 @@
 body {
-  margin: 0;
-
+  margin: 0 auto;
+  padding: 0;
 }
 
 /*header*/
@@ -26,7 +26,6 @@ header{
 
 }
 header nav span{
-
   padding-right: 40px;
   display: inline-block
   width: 30px;
@@ -45,34 +44,32 @@ nav a {
   background-color: white;*/
 
 .column {
-  width: 100%;
+  width: 1232px;
   height: auto;
   display: flex;
   flex-direction:row;
   justify-content: center;
   padding-top: 150px;
 }
+
 .large {
+  overflow:auto;
   width: 630px;
   margin-right: 20px;
-
-  overflow:auto;
-
+  flex-shrink:0;
 }
 
 .medium{
   width: 300px;
-
   margin-right:20px;
+
 
 
 }
  .small {
   width: 240px;
-
-
-
 }
+
 .column p,h3{
 font-family: Georgia;
 font-size: 17px;
@@ -86,7 +83,6 @@ color: black;
   background-color: white;
   display: flex;
   flex-direction: column;
-
 }
 .box2n3{
   display: flex;
@@ -209,10 +205,10 @@ footer {
 .foot1{
   width: 100%;
   display:flex;
-
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  margin: 0 auto;
 
 }
 .foot1 nav {
