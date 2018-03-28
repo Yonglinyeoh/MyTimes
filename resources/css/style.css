@@ -21,10 +21,10 @@ header{
   display: flex;
   align-items: center;
   flex-grow: 1;
-
+  border: 1px solid black;
 }
-nav span{
-
+header nav span{
+  border: 1px solid black;
   padding-right: 40px;
   display: inline-block;
   width: 30px;
@@ -46,26 +46,32 @@ nav a {
 .column {
   width: 100%;
   height: auto;
-
+  border: 1px solid black;
   display: flex;
-
+  background-color: lightblue;
   flex-direction:row;
   justify-content: center;
   padding-top: 150px;
 }
 .large {
   width: 630px;
-
+  border: 1px solid orange;
   margin-right: 20px;
+  flex-shrink: 0;
+
 }
 
 .medium{
   width: 300px;
-
+  border: 1px solid blue;
   margin-right:20px;
+  flex-shrink: 0;
+
 }
  .small {
   width: 240px;
+  border: 1px solid green;
+  flex-shrink: 0;
 
 }
 .column p,h3{
@@ -75,10 +81,13 @@ color: black;
 }
 /*Editing Large Columns */
 .box1, .box2, .box3{
-
+  border: 1px solid black;
 }
 .box1{
   background-color: white;
+  display: flex;
+  flex-direction: column;
+
 }
 .box2n3{
   display: flex;
@@ -86,12 +95,12 @@ color: black;
 }
 }
 .box2{
-
+  background-color: floralwhite;
 
 }
 .box3{
 
-
+  background-color: purple;
 }
 .orca, .breakfast{
   padding: 15px 15px;
@@ -100,9 +109,10 @@ color: black;
 .earth{
 display:flex;
 height:300px;
-align-items: center;
 width: auto%;
 margin: 10px 10px;
+text-align: center;
+align-items: flex-start;
 background-image: url("http://news.rakyatku.com/thumbs/img_660_442_gerhana-bu_1517369510Bumi.jpg")
 }
 
@@ -111,8 +121,7 @@ background-image: url("http://news.rakyatku.com/thumbs/img_660_442_gerhana-bu_15
   height: 300px;
   width: auto%;
   margin: 10px 10px;
-  justify-content:center;
-  align-items: center;
+  text-align: center;
   background-image:url("http://2.citynews-milanotoday.stgy.ovh/~media/original-hi/25574050584160/photo-7.jpeg")
 }
 
@@ -131,6 +140,7 @@ font-family: Georgia;
 font-weight: bold;
 font-size: 40px;
 color: white;
+
 }
 /*SubStory1 & Camera*/ /*For this part, if you place background image before saying the width and height it wont work*/
 
@@ -148,5 +158,81 @@ color: white;
   display: flex;
   width:100%;
   height: 200px;
+  align-items: flex-start;
+  text-align: center;
   background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png")
+}
+
+/*Small Column */
+.small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.options{
+  display: flex;
+    flex-direction: column;
+
+
+}
+.options span {
+  display: flex;
+  height: 40px;
+  padding-left:20px;
+  width: auto%;
+  border-bottom: 1px solid black;
+  align-items: center;
+  background-color: whitesmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+.small h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+/*small column*/
+/*footer*/
+footer {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  background-color: mediumaquamarine;
+  font-family: Verdana;
+  margin: auto;
+  font-size: 12px;
+  border: 1px solid black;
+}
+.foot1{
+  width: 100%;
+  display:flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+}
+.foot1 nav {
+  margin-left: 50px;
+}
+.foot1 nav span{
+  display: inline-block;
+  border: 1px solid black;
+  width: 50px;
+}
+.foot2{
+  margin-top: 10px;
+  border: 1px solid black;
+}
+.foot1 h1{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 20px;
+  border-right: 2px solid white;
 }
