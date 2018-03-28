@@ -50,6 +50,7 @@ nav a {
   flex-direction:row;
   justify-content: center;
   padding-top: 150px;
+  margin: 0 auto;
 }
 
 .large {
@@ -91,10 +92,8 @@ color: black;
 }
 /*.box2{
   background-color: floralwhite;
-
 }*/
 /*.box3{
-
   background-color: purple;
 }*/
 .orca, .breakfast{
